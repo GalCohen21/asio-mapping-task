@@ -1,0 +1,11 @@
+{
+  "min_elevation": 69.0,
+  "max_elevation": 545.0,
+  "visual_min_percentile": 2,
+  "visual_max_percentile": 98,
+  "visual_min_elevation": 104.0,
+  "visual_max_elevation": 472.0,
+  "colormap": "terrain_like",
+  "alpha": 120,
+  "important_note": "This PNG is only a visual elevation overlay. Exact elevation values are still read from elevation_window_int16.bin."
+}

@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Original provided data - large files, not committed
+data_original/
+*.gpkg
+*.tif
+*.tfw
+*.aux.xml
+
+# Temporary/generated preview images
+data_processed/*.jpg
+data_processed/*.jpeg
+data_processed/*.png
+
+# OS / IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Android build outputs
+.gradle/
+build/
+*/build/
+local.properties

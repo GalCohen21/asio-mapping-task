@@ -1,0 +1,33 @@
+{
+  "description": "DTM window covering the orthophoto area. Values are stored as row-major int16.",
+  "source_dtm": "dtm.tif",
+  "orthophoto_bounds_epsg_4326": {
+    "min_lon": 35.28,
+    "min_lat": 32.8397,
+    "max_lon": 35.3918,
+    "max_lat": 32.8868
+  },
+  "dtm_crs": "EPSG:32636",
+  "nodata": -32768.0,
+  "window": {
+    "col_off": 23924,
+    "row_off": 18942,
+    "width": 1058,
+    "height": 545
+  },
+  "dtm_transform": {
+    "a_pixel_width": 10.0,
+    "b_rotation": 0.0,
+    "c_top_left_x": 474035.41821334185,
+    "d_rotation": 0.0,
+    "e_pixel_height": -10.0,
+    "f_top_left_y": 3830701.5944371745
+  },
+  "binary_file": "elevation_window_int16.bin",
+  "binary_format": {
+    "dtype": "int16",
+    "byte_order": "native",
+    "layout": "row-major",
+    "index_formula": "index = row * width + col"
+  }
+}

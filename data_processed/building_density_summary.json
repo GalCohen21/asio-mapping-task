@@ -1,0 +1,8 @@
+{
+  "density_percentage": 58.69,
+  "method": "Approximate raster-based built-up density estimation from RGB orthophoto.",
+  "important_note": "This is not an exact GIS building-footprint calculation. It is a visual heuristic based on color and brightness patterns in the orthophoto.",
+  "zoom_level_used": 6,
+  "output_width": 1058,
+  "output_height": 545
+}
