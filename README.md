@@ -22,6 +22,7 @@ The app displays an orthophoto map from a GeoPackage file and overlays DTM-based
 - `android_app/app/src/main/assets/` - processed files used by the Android app
 - `docs/WORK_LOG.md` - development work log
 - `Summary.pdf` - short reflection summary for the assignment
+- `Demo_Video.mp4` - demo video showing the app features
 
 ## Data Files
 
