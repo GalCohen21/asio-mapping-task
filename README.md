@@ -24,7 +24,7 @@ The app displays an orthophoto map from a GeoPackage file and overlays DTM-based
 - `android_app/app/src/main/assets/` - processed files used directly by the Android app
 - `README.md` - project overview, run instructions, versions and libraries
 - `Summary.pdf` - reflection summary for the assignment
-- `Demo_Video.mp4` - demo video showing the app features. If GitHub does not preview the video in the browser, click **View raw** to download/watch it.
+- `Demo_Video.webm` - demo video showing the app features. If GitHub does not preview the video in the browser, click **View raw** to download/watch it.
 - `requirements.txt` - Python dependencies used for preprocessing
 
 ## Data Files
