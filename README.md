@@ -44,8 +44,9 @@ The Android app expects `Orthophoto.gpkg` to be located on the emulator/device a
 Example ADB command:
 
 ```powershell
-& "C:\Users\cohen\AppData\Local\Android\Sdk\platform-tools\adb.exe" push "data_original\Orthophoto.gpkg" "/sdcard/Android/data/com.galcohen.asiomapping/files/Orthophoto.gpkg"
+adb push "data_original\Orthophoto.gpkg" "/sdcard/Android/data/com.galcohen.asiomapping/files/Orthophoto.gpkg"
 ```
+If `adb` is not in your PATH, use the full path to the Android SDK `platform-tools/adb` executable.
 
 ## Preprocessing
 
